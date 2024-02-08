@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+/*body section {*/
+/*    border-top: 1px dashed white;*/
+/*}*/
+
+/* --- header .header --- */
+.header {
+    background-color: #020303;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /*border-left: 1px dashed white;*/
+    /*border-right: 1px dashed white;*/
+    /*box-sizing: border-box;*/
+}
+
+.header .container {
+    font-size: 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .logo {
+    margin-right: 282px;
+}
+
+.header-menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin: 0 29px;
+}
+
+.header-menu ul li:first-child {
+    margin-left: 0;
+}
+
+.header-menu ul li:last-child {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.header-menu a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+}
+/* -------------------- */
+
+/* --- section .main --- */
+.main {
+    background-color: #020303;
+    padding: 133px 0 80px 0;
+}
+
+.main .container {
+    font-size: 0;
+}
+
+.main-greatSushi {
+    display: inline-block;
+    max-width: 564px;
+    margin-right: 22px;
+    /*height: 421px;*/
+    /*margin-bottom: 45px;*/
+    padding-bottom: 45px;
+}
+
+.main-image {
+    vertical-align: bottom;
+    /*margin-top: 32px;*/
+}
+
+.main-greatSushi h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 74px;
+}
+
+#title-orange {
+    color: #ffaf18;
+}
+
+.main-greatSushi-features {
+    font-size: 0;
+    margin-bottom: 92px;
+}
+
+.main-greatSushi-features-item1 {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+
+.main-greatSushi-features-item2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-greatSushi-features img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.main-greatSushi-features span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.main-button {
+    display: inline-block;
+    background-color: #ffaf18;
+    text-decoration: none;
+    padding: 22px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 224px;
+    text-align: center;
+
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.main-image {
+    display: inline-block;
+}
+/* ----------------------- */
+
+/* --- section .choice --- */
+.choice {
+    padding: 120px 0;
+    background-color: #020303;
+}
+
+.choice h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.choice-menu {
+    font-size: 0;
+    margin: -12px;
+}
+
+.choice-menu-sushi {
+    background-color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 282px;
+    height: 354px;
+    padding: 10px 10px 15px;
+    text-align: center;
+    margin: 12px 12px 12px 12px;
+}
+
+.choice-menu-sushi-container {
+    max-width: 242px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.choice-menu-sushi-image {
+    margin-bottom: 30px;
+}
+
+.choice-menu-sushi h3 {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 0.6;
+    margin-bottom: 15px;
+}
+
+.choice-menu-sushi-text {
+    height: 54px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    max-width: 242px;
+}
+
+.choice-button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px;
+    cursor: pointer;
+    background-color: rgb(255, 175, 24);
+    border-radius: 25px;
+    border: 0;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.choice-menu div.choice-menu-sushi:first-child, .choice-menu div.choice-menu-sushi:last-child {
+    padding: 5px 5px 10px;
+    border: 5px solid #ed9b00;
+}
+/* ---------------------- */
+
+/* --- section .about --- */
+.about {
+    background-color: #020303;
+    padding: 120px 0 67px 0;
+}
+
+.about .container {
+    font-size: 0;
+}
+
+.about-sushist {
+    display: inline-block;
+    max-width: 386px;
+    margin-right: 46px;
+}
+
+.about-sushist h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+.about-sushist-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.about-sushist h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.about-sushist-icons-circles a {
+    margin-right: 40px;
+}
+
+.icon-onigiri {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url("../images/icons/onigiri1.png") white no-repeat center;
+    background-size: 41px;
+    border-radius: 50%;
+}
+
+.icon-sushi {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url("../images/icons/sushi1.png") white no-repeat center;
+    background-size: 34px;
+    border-radius: 50%;
+}
+
+.icon-tuna {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url("../images/icons/tuna1.png") white no-repeat center;
+    background-size: 41px;
+    border-radius: 50%;
+}
+
+.about-image {
+    display: inline-block;
+}
+/* ---------------------- */
+
+/* --- footer .footer --- */
+.footer {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+.footer .container {
+    font-size: 0;
+}
+
+.footer-text {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.footer .logo {
+    margin-right: 390px;
+    vertical-align: middle;
+}
+/* ---------------------- */
+
+/* --- pseudo classes --- */
+.header-menu ul a:hover {
+    color: #ffaf18;
+    border-bottom: 1px solid #ffaf18;
+}
+
+.action a:hover {
+    box-shadow: 0 15px 20px rgba(255, 167, 0, 0.35);
+}
+
+.choice-button:hover {
+    box-shadow: 0 15px 20px rgba(255, 167, 0, 0.35);
+}
+
+.choice-menu-sushi:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* --- icons ---*/
+
+.about-sushist-icons-circles .icon-onigiri:link {
+    background: url("../images/icons/onigiri1.png") white no-repeat center;
+}
+.about-sushist-icons-circles .icon-sushi:link {
+    background: url("../images/icons/sushi1.png") white no-repeat center;
+}
+.about-sushist-icons-circles .icon-tuna:link {
+    background: url("../images/icons/tuna1.png") white no-repeat center;
+}
+
+.about-sushist-icons-circles .icon-onigiri:visited {
+    background: url("../images/icons/onigiri1.png") #bebebe no-repeat center;
+    box-shadow: none;
+}
+.about-sushist-icons-circles .icon-sushi:visited {
+    background: url("../images/icons/sushi1.png") #bebebe no-repeat center;
+    box-shadow: none;
+}
+.about-sushist-icons-circles .icon-tuna:visited {
+    background: url("../images/icons/tuna1.png") #bebebe no-repeat center;
+    box-shadow: none;
+}
+
+.about-sushist-icons-circles a:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.about-sushist-icons-circles .icon-onigiri:active {
+    background: url("../images/icons/onigiri1.png") #ffaf18 no-repeat center;
+    box-shadow: none;
+}
+.about-sushist-icons-circles .icon-sushi:active {
+    background: url("../images/icons/sushi1.png") #ffaf18 no-repeat center;
+    box-shadow: none;
+}
+.about-sushist-icons-circles .icon-tuna:active {
+    background: url("../images/icons/tuna1.png") #ffaf18 no-repeat center;
+    box-shadow: none;
+}
